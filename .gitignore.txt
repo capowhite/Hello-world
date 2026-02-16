@@ -1,0 +1,280 @@
+Last login: Mon Feb 16 16:14:01 on ttys000
+(base) alessiocapobianco@Alessios-MacBook-Air ~ % GIT
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+(base) alessiocapobianco@Alessios-MacBook-Air ~ % CONDA
+usage: CONDA [-h] [-v] [--no-plugins] [-V] COMMAND ...
+
+conda is a tool for managing and deploying applications, environments and packages.
+
+options:
+  -h, --help            Show this help message and exit.
+  -v, --verbose         Can be used multiple times. Once for detailed output,
+                        twice for INFO logging, thrice for DEBUG logging, four
+                        times for TRACE logging.
+  --no-plugins          Disable all plugins that are not built into conda.
+  -V, --version         Show the conda version number and exit.
+
+commands:
+  The following built-in and plugins subcommands are available.
+
+  COMMAND
+    activate            Activate a conda environment.
+    clean               Remove unused packages and caches.
+    commands            List all available conda subcommands (including those
+                        from plugins). Generally only used by tab-completion.
+    compare             Compare packages between conda environments.
+    config              Modify configuration values in .condarc.
+    content-trust       Signing and verification tools for Conda
+    create              Create a new conda environment from a list of
+                        specified packages.
+    deactivate          Deactivate the current active conda environment.
+    doctor              Display a health report for your environment.
+    env                 Create and manage conda environments.
+    export              Export a given environment
+    info                Display information about current conda install.
+    init                Initialize conda for shell interaction.
+    install             Install a list of packages into a specified conda
+                        environment.
+    list                List installed packages in a conda environment.
+    menuinst            A subcommand for installing and removing shortcuts via
+                        menuinst.
+    notices             Retrieve latest channel notifications.
+    package             Create low-level conda packages. (EXPERIMENTAL)
+    remove (uninstall)  Remove a list of packages from a specified conda
+                        environment.
+    rename              Rename an existing environment.
+    repoquery           Advanced search for repodata.
+    run                 Run an executable in a conda environment.
+    search              Search for packages and display associated information
+                        using the MatchSpec format.
+    token               Set repository access token and configure
+                        default_channels
+    tos                 A subcommand for viewing, accepting, rejecting, and
+                        otherwise interacting with a channel's Terms of
+                        Service (ToS). This plugin periodically checks for
+                        updated Terms of Service for the active/selected
+                        channels. Channels with a Terms of Service will need
+                        to be accepted or rejected prior to use. Conda will
+                        only allow package installation from channels without
+                        a Terms of Service or with an accepted Terms of
+                        Service. Attempting to use a channel with a rejected
+                        Terms of Service will result in an error.
+    update (upgrade)    Update conda packages to the latest compatible
+                        version.
+(base) alessiocapobianco@Alessios-MacBook-Air ~ % jupyter notebook checkpoints 
+zsh: command not found: jupyter
+(base) alessiocapobianco@Alessios-MacBook-Air ~ % ipynb_checkpoints/
+zsh: no such file or directory: ipynb_checkpoints/
+(base) alessiocapobianco@Alessios-MacBook-Air ~ % */.ipynb_checkpoints/cd Hello-world
+zsh: no matches found: */.ipynb_checkpoints/cd
+(base) alessiocapobianco@Alessios-MacBook-Air ~ % cd Hello-world
+(base) alessiocapobianco@Alessios-MacBook-Air Hello-world % touch .gitignore
+(base) alessiocapobianco@Alessios-MacBook-Air Hello-world % git pull
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (4/4), 1.76 KiB | 360.00 KiB/s, done.
+From https://github.com/capowhite/Hello-world
+   749d071..ffec5ae  main       -> origin/main
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> nuova-repository
+
+(base) alessiocapobianco@Alessios-MacBook-Air Hello-world % get branch
+zsh: command not found: get
+(base) alessiocapobianco@Alessios-MacBook-Air Hello-world % cd 
+(base) alessiocapobianco@Alessios-MacBook-Air ~ % git branch
+fatal: not a git repository (or any of the parent directories): .git
+(base) alessiocapobianco@Alessios-MacBook-Air ~ % cd
+(base) alessiocapobianco@Alessios-MacBook-Air ~ % cd Hello-world
+(base) alessiocapobianco@Alessios-MacBook-Air Hello-world % git branch
+  hello
+  main
+  new-branch-name
+* nuova-repository
+(base) alessiocapobianco@Alessios-MacBook-Air Hello-world % git branch maiin
+(base) alessiocapobianco@Alessios-MacBook-Air Hello-world % git branch main
+fatal: a branch named 'main' already exists
+(base) alessiocapobianco@Alessios-MacBook-Air Hello-world % git branch main 
+fatal: a branch named 'main' already exists
+(base) alessiocapobianco@Alessios-MacBook-Air Hello-world % main
+zsh: command not found: main
+(base) alessiocapobianco@Alessios-MacBook-Air Hello-world % git    
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+(base) alessiocapobianco@Alessios-MacBook-Air Hello-world % clone
+zsh: command not found: clone
+(base) alessiocapobianco@Alessios-MacBook-Air Hello-world % git branch
+  hello
+  maiin
+  main
+  new-branch-name
+* nuova-repository
+(base) alessiocapobianco@Alessios-MacBook-Air Hello-world % git checkout main
+A	Proova.txt
+Switched to branch 'main'
+Your branch is behind 'origin/main' by 3 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+(base) alessiocapobianco@Alessios-MacBook-Air Hello-world % get branch
+zsh: command not found: get
+(base) alessiocapobianco@Alessios-MacBook-Air Hello-world % git branch 
+  hello
+  maiin
+* main
+  new-branch-name
+  nuova-repository
+(base) alessiocapobianco@Alessios-MacBook-Air Hello-world % git pull
+Updating 749d071..ffec5ae
+Fast-forward
+ deleteme.txt | 1 +
+ filer.txt    | 1 +
+ 2 files changed, 2 insertions(+)
+ create mode 100644 deleteme.txt
+ create mode 100644 filer.txt
+(base) alessiocapobianco@Alessios-MacBook-Air Hello-world % touch .gitignore
+(base) alessiocapobianco@Alessios-MacBook-Air Hello-world % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   Proova.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	.gitignore
+
+(base) alessiocapobianco@Alessios-MacBook-Air Hello-world % git pool 
+git: 'pool' is not a git command. See 'git --help'.
+
+The most similar commands are
+	hook
+	pull
+(base) alessiocapobianco@Alessios-MacBook-Air Hello-world % git poll
+git: 'poll' is not a git command. See 'git --help'.
+
+The most similar command is
+	pull
+(base) alessiocapobianco@Alessios-MacBook-Air Hello-world % git pull
+Already up to date.
+(base) alessiocapobianco@Alessios-MacBook-Air Hello-world % nano .gitignore
+
+  UW PICO 5.09                    File: .gitignore                    Modified  
+
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+^G Get Help  ^O WriteOut  ^R Read File ^Y Prev Pg   ^K Cut Text  ^C Cur Pos   
+^X Exit      ^J Justify   ^W Where is  ^V Next Pg   ^U UnCut Text^T To Spell  
